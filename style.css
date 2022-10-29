@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Quicksand:wght@700&display=swap");
+* {
+  margin: 0;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile_photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-top: 50px;
+}
+.main {
+  background: rgb(212, 212, 212);
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.6s;
+}
+.main:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 15px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.name_phone {
+  margin-top: 20px;
+}
+
+.name {
+  margin-bottom: 8px;
+}
+.phone_photo {
+  width: 35px;
+  margin-top: 10px;
+  cursor: pointer;
+}
